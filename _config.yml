@@ -1,0 +1,31 @@
+theme: minimal-mistakes-jekyll
+
+title: "Sai SuperAI"
+description: "AI strategy, practical guides, and applied machine intelligence."
+url: "https://sai-superai.github.io"
+baseurl: ""
+author:
+  name: "Sai SuperAI"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Main navigation is provided via `_data/navigation.yml` (Minimal Mistakes)
+
+# Social links (placeholders)
+social:
+  - icon: github
+    link: https://github.com/sai-superai
+  - icon: twitter
+    link: https://twitter.com/yourhandle
+
+# Minimal Mistakes settings (keep defaults minimal)
+collections: {}
+
+# Exclude workflow and node_modules from the build
+exclude:
+  - node_modules
+  - vendor
+  - .github
